@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:minWidth="128dp"
+    android:background="@color/colorPrimary"
+    android:elevation="6dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@drawable/test"
+        android:id="@+id/image" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:id="@+id/bar"
+        android:elevation="6dp"
+        android:background="@color/colorPrimary">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="New Text"
+        android:textColor="#FFFFFF"
+        android:id="@+id/title" />
+    <View
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginRight="6dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu"
+        android:visibility="invisible"
+        >
+
+    </View>
+    </RelativeLayout>
+</LinearLayout>

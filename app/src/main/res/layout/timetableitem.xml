@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp">
+<RelativeLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:id="@+id/timetableItemWrapper">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentLeft="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Class"
+        android:textSize="24dp"
+        android:id="@+id/timetableItemClass" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8:45 AM to 9:50 AM"
+        android:textSize="12dp"
+        android:id="@+id/timetableItemTime" />
+</LinearLayout>
+
+    <TextView
+        android:layout_width="256dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The Boy in the Striped Pyjamas Workbook A pdf
+Introductory Letter
+Poetry Assignment
+Free Choice Novel Assignment
+OCTOBER SKY FINAL assignmentdocx
+OCTOBER SKY summary"
+        android:id="@+id/timetableItemHomework" />
+    </RelativeLayout>
+</RelativeLayout>
